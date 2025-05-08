@@ -1,4 +1,5 @@
 import os
+os.environ["NLTK_DATA"] = os.path.join(os.path.dirname(__file__), "nltk_data")
 import json
 from flask import Flask, request, make_response
 from flask_cors import CORS
@@ -7,17 +8,11 @@ from docx import Document
 from PyPDF2 import PdfReader
 from transformers import pipeline
 from essay_analysis import read_essay, summarize_essay, extract_keywords
-os.environ["NLTK_DATA"] = os.path.join(os.path.dirname(__file__), "nltk_data")
-import nltk
+
+
 # Download NLTK data (only needed once)
 
-nltk_downloaded = False
 
-if nltk_downloaded == False:
-    nltk.download('punkt')
-    nltk.download('punkt_tab')
-    nltk.download('wordnet')
-    nltk_downloaded = True
 
 os.environ["TRANSFORMERS_NO_TF"] = "1"
 
