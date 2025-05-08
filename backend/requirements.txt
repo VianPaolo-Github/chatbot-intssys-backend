@@ -6,7 +6,6 @@ uvicorn
 python-multipart 
 PyPDF2 
 python-docx 
-transformers 
-tf-keras 
+transformers  
 flask 
 flask_cors
