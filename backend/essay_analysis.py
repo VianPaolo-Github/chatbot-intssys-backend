@@ -30,11 +30,7 @@ COURSE_SUGGESTIONS = {
     "Liberal Arts":["Bachelor of Elementary Education (BEEd)","Bachelor of Secondary Education (BSEd), multiple majors (English, Math, Science, Social Studies)","Bachelor of Arts in Communication Studies","Bachelor of Arts in English Language","Bachelor of Arts in Political Science"]
 }
 
-summarizer = pipeline(
-    "summarization",
-    model="facebook/bart-large-cnn",       # ✅ specific model
-    tokenizer="facebook/bart-large-cnn"    # ✅ matching tokenizer
-)
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
 def summarize_essay(text):
     # Basic summarization using Hugging Face model
