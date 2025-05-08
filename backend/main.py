@@ -11,6 +11,14 @@ os.environ["NLTK_DATA"] = os.path.join(os.path.dirname(__file__), "nltk_data")
 import nltk
 # Download NLTK data (only needed once)
 
+nltk_downloaded = False
+
+if nltk_downloaded == False:
+    nltk.download('punkt')
+    nltk.download('punkt_tab')
+    nltk.download('wordnet')
+    nltk_downloaded = True
+
 os.environ["TRANSFORMERS_NO_TF"] = "1"
 
 app = Flask(__name__)
