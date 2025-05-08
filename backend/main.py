@@ -7,8 +7,10 @@ from docx import Document
 from PyPDF2 import PdfReader
 from transformers import pipeline
 from essay_analysis import read_essay, summarize_essay, extract_keywords
+os.environ["NLTK_DATA"] = os.path.join(os.path.dirname(__file__), "nltk_data")
 import nltk
 # Download NLTK data (only needed once)
+
 os.environ["TRANSFORMERS_NO_TF"] = "1"
 
 app = Flask(__name__)
