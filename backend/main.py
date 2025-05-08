@@ -9,7 +9,7 @@ from transformers import pipeline
 from essay_analysis import read_essay, summarize_essay, extract_keywords
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/*": {"origins": "https://fancy-dusk-eddaa3.netlify.app"}})
 
 # Load chatbot model
 assistant = ChatbotAssistant(
