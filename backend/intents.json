@@ -1,0 +1,342 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Is anyone there?", "Good day", "Hey there"],
+      "responses": ["Hello!", "Hi there, how can I assist you today?", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Talk to you soon"],
+      "responses": ["Goodbye!", "Take care!", "See you again soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "I appreciate it"],
+      "responses": ["You're welcome!", "Glad I could help!", "Anytime!"]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How do I apply?", "What is the application process?", "How to enroll?", "Admission requirements?", "Can I apply online?"],
+      "responses": ["You can apply through our online portal. Visit the admissions page on our website for more details."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses do you offer?", "List of programs?", "Available majors?", "Do you offer business programs?", "Tell me about engineering courses"],
+      "responses": ["We offer a wide range of programs in arts, sciences, engineering, and business. Visit our academics page for more information."]
+    },
+    {
+      "tag": "tuition",
+      "patterns": ["How much is tuition?", "Tuition fees?", "What does it cost to attend?", "Are there scholarships?", "Any financial aid options?"],
+      "responses": ["Tuition fees vary by program. You can check our tuition and financial aid page for detailed breakdowns and scholarship info."]
+    },
+    {
+      "tag": "teacher_jobs",
+      "patterns": ["Are there job openings for teachers?", "How do I apply for a teaching position?", "Is the college hiring professors?", "Faculty job listings?"],
+      "responses": ["Yes, we post job openings for faculty on our careers page. Please check there and apply online."]
+    },
+    {
+      "tag": "student_life",
+      "patterns": ["What is student life like?", "Are there clubs and activities?", "Do you have dorms?", "Is there a student union?", "Tell me about campus events"],
+      "responses": ["Student life is vibrant with clubs, sports, events, and residential facilities. Visit our student life section for more."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is the college located?", "College address?", "How do I get there?", "Campus location?", "Directions to the college?"],
+      "responses": ["Our college is located at General Luna Road, Baguio City. You can find directions on our contact section in our main webpage."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact admissions?", "Is there a phone number?", "Can I email the college?", "Support contact?", "How do I reach out?"],
+      "responses": ["You can contact us by email at ub@e.ubaguio.edu or call (074) 442-3036."]
+    },
+    {
+      "tag": "deadline",
+      "patterns": ["When is the application deadline?", "Deadline for enrollment?", "When should I apply?", "Last date to apply?"],
+      "responses": ["Application deadlines vary by semester. Please visit our admissions calendar for exact dates."]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": ["Can you recommend a major?", "What should I study?", "Which program is best for me?", "Suggestions for my field of interest?"],
+      "responses": ["I would love to help. Tell me more about your interests or career goals."]
+    },
+    {
+      "tag": "interview_prep",
+      "patterns": ["How can I prepare for the interview?", "Admission interview tips?", "What questions are asked?", "Tips for college interview?"],
+      "responses": ["Be yourself and be honest. Practice common questions and learn about the college’s values and programs."]
+    },
+
+    
+    {
+      "tag": "interest_accountancy",
+      "patterns": [
+        "I'm into accountancy", "I like accountancy", "I want to study accountancy", "accountancy is my passion", "interested in accountancy"
+      ],
+      "responses": [
+        "You might be a great fit for the Bachelor of Science in Accountancy program.",
+        "If accountancy excites you, then our BS in Accountancy is perfect!"
+      ]
+    },
+    {
+      "tag": "interest_business_admin",
+      "patterns": [
+        "I'm into business administration", "I like business administration", "I want to study business administration", "business administration is my passion", "interested in business administration"
+      ],
+      "responses": [
+        "Sounds like a business leader in the making! You should check out the Bachelor of Science in Business Administration.",
+        "You might thrive in our Bachelor of Science in Business Administration program."
+      ]
+    },
+    {
+      "tag": "interest_criminology",
+      "patterns": [
+        "I'm into criminal justice", "I like criminal justice", "I want to study criminal justice", "criminal justice is my passion", "interested in criminology", "interested in criminal justice"
+      ],
+      "responses": [
+        "You might enjoy our Bachelor of Science in Criminology program!",
+        "Great! Check out the BS in Criminology — it's tailored for justice-driven minds like yours."
+      ]
+    },
+    {
+      "tag": "interest_dentistry",
+      "patterns": [
+        "I'm into dentistry", "I like dentistry", "I want to study dentistry", "becoming a dentist is my passion", "interested in dental medicine"
+      ],
+      "responses": [
+        "You’ll want to look into our Doctor of Dental Medicine (DMD) program — it’s perfect for aspiring dentists.",
+        "If dental health is your calling, the DMD program is where you should be!"
+      ]
+    },
+    {
+      "tag": "interest_architecture",
+      "patterns": [
+        "I'm into architecture", "I like architecture", "I want to study architecture", "becoming an architect is my passion", "interested in architecture"
+      ],
+      "responses": [
+        "Our Bachelor of Science in Architecture might be just what you're looking for!",
+        "Sounds like you're architect material — go for our BS in Architecture program."
+      ]
+    },
+    {
+      "tag": "interest_civil_engineering",
+      "patterns": [
+        "I'm into civil engineering", "I like civil engineering", "I want to study civil engineering", "civil engineering is my passion", "interested in civil engineering"
+      ],
+      "responses": [
+        "You should explore the Bachelor of Science in Civil Engineering program — it’s ideal for future builders and planners.",
+        "BS in Civil Engineering sounds like the right fit for you!"
+      ]
+    },
+    {
+      "tag": "interest_computer_engineering",
+      "patterns": [
+        "I'm into computer engineering", "I like computer engineering", "I want to study computer engineering", "computer engineering is my passion", "interested in computer engineering"
+      ],
+      "responses": [
+        "Awesome! You should check out the Bachelor of Science in Computer Engineering.",
+        "If you're into computer systems and hardware, BS in Computer Engineering is the way to go."
+      ]
+    },
+    {
+      "tag": "interest_electrical_engineering",
+      "patterns": [
+        "I'm into electrical engineering", "I like electrical engineering", "I want to study electrical engineering", "electrical engineering is my passion", "interested in electrical engineering"
+      ],
+      "responses": [
+        "Then the Bachelor of Science in Electrical Engineering program is for you!",
+        "Great choice — BS in Electrical Engineering suits your interest well."
+      ]
+    },
+    {
+      "tag": "interest_electronics_engineering",
+      "patterns": [
+        "I'm into electronics engineering", "I like electronics engineering", "I want to study electronics engineering", "electronics engineering is my passion", "interested in electronics engineering"
+      ],
+      "responses": [
+        "You’re on the right track! Look into the Bachelor of Science in Electronics Engineering.",
+        "BS in Electronics Engineering would be a great fit!"
+      ]
+    },
+    {
+      "tag": "interest_mechanical_engineering",
+      "patterns": [
+        "I'm into mechanical engineering", "I like mechanical engineering", "I want to study mechanical engineering", "mechanical engineering is my passion", "interested in mechanical engineering"
+      ],
+      "responses": [
+        "Sounds like you’re meant for our Bachelor of Science in Mechanical Engineering!",
+        "You should definitely explore the BS in Mechanical Engineering program."
+      ]
+    },
+    {
+      "tag": "interest_computer_science",
+      "patterns": [
+        "I'm into computer science", "I like computer science", "I want to study computer science", "computer science is my passion", "interested in computer science"
+      ],
+      "responses": [
+        "The Bachelor of Science in Computer Science is perfect for aspiring coders and problem-solvers!",
+        "Great — the BS in Computer Science program is a fantastic choice."
+      ]
+    },
+    {
+      "tag": "interest_information_technology",
+      "patterns": [
+        "I'm into information technology", "I like information technology", "I want to study information technology", "information technology is my passion", "interested in IT"
+      ],
+      "responses": [
+        "You might love our Bachelor of Science in Information Technology program!",
+        "IT sounds like a strong interest of yours — BS in Information Technology is the right path."
+      ]
+    },
+    {
+      "tag": "interest_hospitality",
+      "patterns": [
+        "I'm into hospitality", "I like hospitality", "I want to study hospitality", "hospitality is my passion", "interested in hospitality"
+      ],
+      "responses": [
+        "The Bachelor of Science in Hospitality Management would be an excellent choice.",
+        "Perfect! Our BS in Hospitality Management is designed just for that."
+      ]
+    },
+    {
+      "tag": "interest_tourism",
+      "patterns": [
+        "I'm into tourism", "I like tourism", "I want to study tourism", "tourism is my passion", "interested in tourism management"
+      ],
+      "responses": [
+        "You should check out our Bachelor of Science in Tourism Management program!",
+        "Sounds exciting! Go for our BS in Tourism Management."
+      ]
+    },
+    {
+      "tag": "interest_law",
+      "patterns": [
+        "I'm into law", "I like law", "I want to study law", "law is my passion", "interested in law"
+      ],
+      "responses": [
+        "You’re headed for great things — the Bachelor of Laws (LL.B) program is right for you.",
+        "Perfect! Our LL.B program is designed for future lawyers like you."
+      ]
+    },
+    {
+      "tag": "interest_biology",
+      "patterns": [
+        "I'm into biology", "I like biology", "I want to study biology", "biology is my passion", "interested in biology"
+      ],
+      "responses": [
+        "You’ll thrive in the Bachelor of Science in Biology — a great choice for aspiring scientists.",
+        "Sounds like BS in Biology would be perfect for you!"
+      ]
+    },
+    {
+      "tag": "interest_chemistry",
+      "patterns": [
+        "I'm into chemistry", "I like chemistry", "I want to study chemistry", "chemistry is my passion", "interested in chemistry"
+      ],
+      "responses": [
+        "Check out our Bachelor of Science in Chemistry program!",
+        "A passion for chemistry? BS in Chemistry is your path."
+      ]
+    },
+    {
+      "tag": "interest_psychology",
+      "patterns": [
+        "I'm into psychology", "I like psychology", "I want to study psychology", "psychology is my passion", "interested in psychology"
+      ],
+      "responses": [
+        "Great! The Bachelor of Science in Psychology would be a strong fit for you.",
+        "You might love our BS in Psychology program — it’s made for curious minds like yours."
+      ]
+    },
+    {
+      "tag": "interest_nursing",
+      "patterns": [
+        "I'm into nursing", "I like nursing", "I want to study nursing", "nursing is my passion", "interested in nursing"
+      ],
+      "responses": [
+        "Caring for others is a noble path! You should check out our Bachelor of Science in Nursing program.",
+        "With your interest in nursing, the BS in Nursing would be a perfect fit."
+      ]
+    },
+    {
+      "tag": "interest_elementary_education",
+      "patterns": [
+        "I'm into elementary education", "I like elementary education", "I want to teach children", "becoming an elementary teacher is my dream", "interested in teaching kids", "interested in elementary education"
+      ],
+      "responses": [
+        "You'd be amazing in the classroom! The Bachelor of Elementary Education is the perfect program for future teachers of young learners.",
+        "Great passion! You should consider the Bachelor of Elementary Education program."
+      ]
+    },
+    {
+      "tag": "interest_secondary_education_english",
+      "patterns": [
+        "I'm into secondary education english", "I like teaching english", "I want to teach high school english", "english education is my passion", "interested in teaching secondary english"
+      ],
+      "responses": [
+        "That’s fantastic! You’d thrive in our Bachelor of Secondary Education major in English.",
+        "Teaching English at the secondary level? The BSEd major in English is made for you!"
+      ]
+    },
+    {
+      "tag": "interest_secondary_education_math",
+      "patterns": [
+        "I'm into secondary education math", "I like teaching math", "I want to teach high school math", "math education is my passion", "interested in teaching secondary math"
+      ],
+      "responses": [
+        "If you love math and teaching, then the BSEd major in Math is the perfect program for you!",
+        "You should definitely look into the Bachelor of Secondary Education major in Mathematics."
+      ]
+    },
+    {
+      "tag": "interest_secondary_education_science",
+      "patterns": [
+        "I'm into secondary education science", "I like teaching science", "I want to teach high school science", "science education is my passion", "interested in teaching secondary science"
+      ],
+      "responses": [
+        "With a passion for science and education, you'd be great in the BSEd major in Science!",
+        "The Bachelor of Secondary Education major in Science sounds like a great fit for you."
+      ]
+    },
+    {
+      "tag": "interest_secondary_education_social_studies",
+      "patterns": [
+        "I'm into secondary education social studies", "I like teaching social studies", "I want to teach high school social studies", "history education is my passion", "interested in teaching secondary social studies"
+      ],
+      "responses": [
+        "You might enjoy our BSEd major in Social Studies — a great choice for future educators in history and society!",
+        "If you love history and teaching, go for the Bachelor of Secondary Education major in Social Studies."
+      ]
+    },
+    {
+      "tag": "interest_english_language",
+      "patterns": [
+        "I'm into english language", "I like english language", "I want to study english", "english is my passion", "interested in english language"
+      ],
+      "responses": [
+        "A lover of language! You’d enjoy our Bachelor of Arts in English Language program.",
+        "Our BA in English Language is designed for those passionate about communication and linguistics."
+      ]
+    },
+    {
+      "tag": "interest_political_science",
+      "patterns": [
+        "I'm into political science", "I like political science", "I want to study politics", "political science is my passion", "interested in government and society"
+      ],
+      "responses": [
+        "You’d thrive in our Bachelor of Arts in Political Science — a perfect foundation for future leaders, analysts, or lawyers.",
+        "Great interest! Check out our BA in Political Science program."
+      ]
+    },
+    {
+      "tag": "interest_communication_studies",
+      "patterns": [
+        "I'm into communication", "I like communication", "I want to study communication", "mass communication is my passion", "interested in media and communication"
+      ],
+      "responses": [
+        "Your voice matters — and you'd shine in our Bachelor of Arts in Communication Studies.",
+        "Perfect! The BA in Communication Studies will give you the skills to thrive in media, PR, and more."
+      ]
+    }
+
+  ]
+}
