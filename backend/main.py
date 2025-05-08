@@ -10,9 +10,6 @@ from essay_analysis import read_essay, summarize_essay, extract_keywords
 import nltk
 # Download NLTK data (only needed once)
 os.environ["TRANSFORMERS_NO_TF"] = "1"
-nltk.download('punkt')
-nltk.download('punkt_tab')
-nltk.download('wordnet')
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "https://fancy-dusk-eddaa3.netlify.app"}})
