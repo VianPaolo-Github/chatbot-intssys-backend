@@ -6,13 +6,10 @@ from flask_cors import CORS
 from chatbot import ChatbotAssistant
 from docx import Document
 from PyPDF2 import PdfReader
-from transformers import pipeline
+
 from essay_analysis import read_essay, summarize_essay, extract_keywords
 
-
 # Download NLTK data (only needed once)
-
-
 
 os.environ["TRANSFORMERS_NO_TF"] = "1"
 
@@ -41,10 +38,12 @@ def chat_endpoint():
     return json_response({"reply": reply})
 
 # Essay summarizer pipeline
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+
 
 @app.route('/upload-essay', methods=['POST'])
 def upload_essay():
+    from transformers import pipeline
+    summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
     if 'file' not in request.files:
         return json_response({'error': 'No file part'}, 400)
 
@@ -91,4 +90,4 @@ def json_response(payload, status=200):
     return response
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
