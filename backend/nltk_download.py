@@ -10,6 +10,7 @@ os.makedirs(download_dir, exist_ok=True)
 
 # Download the necessary NLTK data
 nltk.download("punkt", download_dir=download_dir)
+nltk.download("punkt_tab", download_dir=download_dir)
 nltk.download("wordnet", download_dir=download_dir)
 
 print(f"NLTK data downloaded to: {download_dir}")
